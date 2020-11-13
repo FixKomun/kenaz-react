@@ -1,0 +1,15 @@
+//Including Boostrap CSS. I'm using SASS.
+@import "~bootstrap/scss/bootstrap";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #eeeeee;
+}
+
+@import "./home";
+//@import "./category";
+//@import "./single";
